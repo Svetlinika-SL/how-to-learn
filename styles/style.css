@@ -4,13 +4,14 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color:  #f2f2f2;
+
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color:  #f2f2f2;
 }
 
 .logo {
@@ -76,9 +77,40 @@
   background-color: #2f80ed;
 }
 
+.description {
+  display: flex;
+
+}
+
+.two-columns {
+  justify-content: space-between;
+
+}
 
 
+.two-columns__brief {
 
+}
+
+.two-columns__main-text {
+
+}
+
+.two-columns__paragraph {
+
+}
+
+.two-columns__paragraph_1 {
+
+}
+
+.two-columns__paragraph_2 {
+
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {

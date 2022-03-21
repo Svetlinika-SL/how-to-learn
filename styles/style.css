@@ -79,38 +79,43 @@
 
 .description {
   display: flex;
-
+  position: relative;
+  justify-content: space-between;
+  top: 100px;
+  bottom: 100px;
+  left: 10%;
 }
 
 .two-columns {
-  justify-content: space-between;
-
+  display: flex;
+  width: 175px;
+  width: 80%;
+  min-width: 784px;
 }
-
 
 .two-columns__brief {
-
+  display: flex;
+  color: #2f80ed;
+  height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  padding-right: 3%;
 }
 
-.two-columns__main-text {
-
-}
-
-.two-columns__paragraph {
-
-}
-
-.two-columns__paragraph_1 {
-
-}
-
-.two-columns__paragraph_2 {
+.two-columns__paragraph:last-child{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 30px 0;
 
 }
 
 .two-columns__span-accent {
   font-weight: bold;
 }
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {

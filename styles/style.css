@@ -4,14 +4,14 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-
+  background-color:  #f2f2f2;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color:  #f2f2f2;
+
 }
 
 .logo {
@@ -64,7 +64,7 @@
   left: 50%;
   bottom: 0;
   z-index: 1;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .header__square-pic {
@@ -81,38 +81,134 @@
   display: flex;
   position: relative;
   justify-content: space-between;
-  top: 100px;
-  bottom: 100px;
   left: 10%;
 }
 
 .two-columns {
   display: flex;
-  width: 175px;
-  width: 80%;
-  min-width: 784px;
+  justify-content: space-between;
+  top: 100px;
+  bottom: 100px;
 }
 
 .two-columns__brief {
   display: flex;
-  color: #2f80ed;
-  height: 1.2;
+  position: relative;
+  top: 10%;
+  width: 175px;
+  line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  padding-right: 3%;
+  padding-right: 5%;
+  color: #2f80ed;
 }
 
-.two-columns__paragraph:last-child{
-  line-height: 34px;
+.two-columns__paragraph {
+  min-width: 784px;
+  width: 80%;
+  height: 34px;
   font-size: 24px;
   font-weight: normal;
-  padding: 30px 0;
+  padding: 30px;
+}
 
+.two-columns__paragraph:last-child {
+  height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 30px;
 }
 
 .two-columns__span-accent {
   font-weight: bold;
 }
+
+
+.digits__section-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  left: 23%;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.digits__section-subtitle {
+  justify-content: center;
+  position: relative;
+  left: 46%;
+  height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  padding-top: 60px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table__cell {
+  width: 250px;
+  text-align: right;
+  align-items: stretch;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+.table__text-more {
+  font-weight: normal;
+}
+
+.feynman {
+  height: 648px;
+
+}
+
+
+.feynman__title {
+  position: relative;
+  top: 100px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.feynman__subtitle {
+
+}
+
+.feynman_link {
+
+}
+
+.
+
+
+
+
+
+
 
 
 

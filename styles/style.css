@@ -194,7 +194,6 @@
   font-weight: normal;
   line-height: 1.2;
   font-size: 18px;
-  font-weight: normal;
 }
 
 .feynman {
@@ -347,6 +346,7 @@
 .footer__links {
   display: flex;
   flex-direction: column;
+  padding-bottom: 16px;
   margin: 0;
 }
 
@@ -364,10 +364,6 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
-}
-
-.footer__links {
-  padding-bottom: 16px;
 }
 
 .footer__social-icon {

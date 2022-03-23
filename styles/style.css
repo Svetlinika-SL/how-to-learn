@@ -83,6 +83,7 @@
 }
 
 .description {
+  position: relative;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -92,10 +93,13 @@
   position: relative;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 0;
+  align-items: center;
+  align-items: baseline;
   width: 80%;
-  margin-left:auto;
-  margin-right:auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .two-columns__brief {
@@ -107,9 +111,6 @@
 }
 
 .two-columns__main-text {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
   width: 80%;
   min-width: 784px;
 }
@@ -118,8 +119,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-top:30px;
-  margin-bottom:30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .two-columns__span-accent {

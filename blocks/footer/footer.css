@@ -1,0 +1,22 @@
+@import url('../footer/__columns/footer__columns.css');
+@import url('../footer/__column/_content/footer__column_content_copyright.css');
+@import url('../footer/__column/_content/footer__column_content_info.css');
+@import url('../footer/__column/_content/footer__column_content_social.css');
+@import url('../footer/__column-heading/footer__column-heading.css');
+@import url('../footer/__column-link/footer__column-link.css');
+@import url('../footer/__column-links/footer__column-links.css');
+@import url('../footer/__social-icon/footer__social-icon.css');
+@import url('../footer/__author/footer__author.css');
+
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  width: 100%;
+  min-height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #1f1f1f;
+}

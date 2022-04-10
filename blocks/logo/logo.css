@@ -1,0 +1,9 @@
+@import url('../logo/_place/logo_place_header.css');
+@import url('../logo/_place/logo_place_footer.css');
+
+.logo {
+  position: relative;
+  width: 183px;
+  height: 32px;
+
+}

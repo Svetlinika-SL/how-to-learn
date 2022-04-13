@@ -2,6 +2,7 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
-  padding-bottom: 16px;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }

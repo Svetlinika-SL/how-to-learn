@@ -1,6 +1,7 @@
 .header__main-illustration {
   display: flex;
   position: absolute;
+  object-fit: cover;
   width: 765px;
   height: 608px;
   right: 0;

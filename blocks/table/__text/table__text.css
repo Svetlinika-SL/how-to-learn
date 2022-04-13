@@ -6,6 +6,6 @@
   margin-bottom: 0;
 }
 
-.table__text :last-child {
+.table__text:last-child {
   margin-top: 20px;
 }
